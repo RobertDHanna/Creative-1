@@ -76,5 +76,21 @@ nav {
 }
 
 .row {
-  margin-top: 32px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.backlog-img {
+  float: right;
+}
+
+.progress {
+  width: 50%;
+  float: left;
+  position: absolute;
+  bottom: 20%;
 }
