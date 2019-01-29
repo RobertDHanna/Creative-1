@@ -28,10 +28,17 @@
 .card-body-content {
   text-align: left;
   font-size: 25px;
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+.p-header {
+  text-align: left;
+  font-size: 25px;
 }
 
 .intro-emphasize {
-  color: var(--red);
+  color: var(--blue);
 }
 
 .center-text {
@@ -64,15 +71,28 @@ nav {
   color: var(--white) !important;
 }
 
+.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--green) !important;
+}
+
+.navbar-nav .active {
+  color: var(--green) !important;
+}
+
 .navbar-margin {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .game-search-section {
   background-color: var(--black);
   color: var(--white);
   text-align: center;
+}
+
+.backlog-margin {
+  margin-bottom: 80px;
 }
 
 .row {
@@ -93,4 +113,21 @@ nav {
   float: left;
   position: absolute;
   bottom: 20%;
+}
+
+.jumbotron {
+  border-radius: 0;
+}
+
+.form-wrapper {
+  margin-top: 100px;
+}
+
+.paragraph-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-title {
+  text-align: center;
 }
