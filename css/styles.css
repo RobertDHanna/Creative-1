@@ -1,0 +1,80 @@
+:root {
+  --navy: #001f3f;
+  --blue: #0074d9;
+  --red: #ff4136;
+  --white: #ffffff;
+  --black: #111111;
+  --green: #2ecc40;
+}
+
+.intro-section {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.search-section {
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+}
+
+.white-section {
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+}
+
+.card-body-content {
+  text-align: left;
+  font-size: 25px;
+}
+
+.intro-emphasize {
+  color: var(--red);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.home-page-icon {
+  font-size: 100px;
+}
+
+.text-muted {
+  font-size: 45%;
+  color: var(--green) !important;
+}
+
+.main-banner {
+  margin-bottom: 75px;
+}
+
+.main-banner-title {
+  font-size: 5rem;
+}
+
+nav {
+  background-color: var(--black);
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--white) !important;
+}
+
+.navbar-margin {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.game-search-section {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.row {
+  margin-top: 32px;
+}
